@@ -47,7 +47,7 @@ body {
 
 .main-header {
     background-color: rgba(0, 0, 0, .6);
-    background-image: url(Images/girlang2.jpg);
+    background-image: url(images/girlang2.jpg);
     background-blend-mode:normal;
     background-size: cover;
     padding-bottom: 30px;
