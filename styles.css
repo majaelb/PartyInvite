@@ -47,7 +47,7 @@ body {
 
 .main-header {
     background-color: rgba(0, 0, 0, .6);
-    background-image: url(images/girlang.jpg);
+    background-image: url(images/girlang2.jpg);
     background-blend-mode:normal;
     background-size: cover;
     padding-bottom: 30px;
@@ -92,7 +92,7 @@ body {
 }
 
 .main-footer {
-    background-color: rgb(173, 74, 135);
+    background-color: rgb(146, 64, 115);
     height: 100px;
     padding: .25em;
     margin-top: auto;
