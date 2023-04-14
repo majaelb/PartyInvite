@@ -1,5 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
+
+@media(min-width: 600px) {
+    
+    .farmname-large {
+        font-size: 4em;
+    }
+    
+    .main-footer {
+        background-color: rgb(146, 64, 115);
+        height: 100px;
+        padding: .25em;
+        margin-top: auto;
+    }
+}
+
+@media(max-width: 599px) {
+
+    .farmname-large {
+        font-size: 3em;
+    }
+    
+    .main-footer {
+        background-color: rgb(146, 64, 115);
+        height: 130px;
+        padding: .25em;
+        margin-top: auto;
+    }
+}
+
+
+
 * {
     box-sizing: border-box;
     font-family: Oswald;
@@ -56,14 +87,9 @@ body {
 .farmname {
     text-align: center;
     margin: 0;
-    font-size: 2em;
     font-weight: normal;
     font-style: normal;
     color: white;
-}
-
-.farmname-large {
-    font-size: 4em;
 }
 
 .content-section {
@@ -91,17 +117,15 @@ body {
     border-radius: 10%;
 }
 
-.main-footer {
-    background-color: rgb(146, 64, 115);
-    height: 100px;
-    padding: .25em;
-    margin-top: auto;
-}
-
 .farmname-footer{
     justify-content: center;
     text-align: center;
     margin: 20px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: normal;
+    font-style: normal;
+    color: white;
 }
 
 #gmap_canvas {
